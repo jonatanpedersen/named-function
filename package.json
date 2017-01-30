@@ -1,0 +1,22 @@
+{
+  "name": "named-function",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonatanpedersen/named-function.git"
+  },
+  "author": "Jonatan Pedersen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonatanpedersen/named-function/issues"
+  },
+  "homepage": "https://github.com/jonatanpedersen/named-function#readme",
+  "engines" : { 
+    "node" : ">=4.0" 
+  }
+}

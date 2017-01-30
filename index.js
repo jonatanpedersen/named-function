@@ -1,5 +1,5 @@
 module.exports = {createNamedFunction};
 
-function createNamedFunction (name, body) {
-	return {[name]: (...args) => body(...args)}[name];
+function createNamedFunction (name, func) {
+	return {[name]: (...args) => func(...args)}[name];
 }
